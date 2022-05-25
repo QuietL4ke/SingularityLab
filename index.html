@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/index.css" />
+    <title>Singularity Lab</title>
+  </head>
+
+  <body class="body">
+    <section class="body__main main">
+      <nav class="main__nav nav">
+        <img src="logo/L21.svg" class="nav__logo" />
+        <div class="nav__links">
+          <a class="nav__link" onclick="toBlock('main')">О нас</a>
+          <a class="nav__link" onclick="toBlock('about')">Услуги</a>
+          <a class="nav__link" onclick="toBlock('contact')">Контакты</a>
+        </div>
+      </nav>
+      <div class="main__info">
+        <div class="main__info-text-block">
+          <h1 class="main__info-text text">Лаборатория дизайна</h1>
+          <h3 class="main__info-description description">
+            Мы профессиональные профессионалы. Наша компания афигеть какая
+            крутая. Вы не пожалеете что обратились к нам за вообще чем угодно.
+            Реальные сроки, реальные вещи. Приходите.
+          </h3>
+        </div>
+        <div class="main__info-pic-block">
+          <img src="pictures/top fill.png" class="main__info-pic" />
+          <img
+            src="pictures/hand.png"
+            class="main__info-pic main__info-pic--hand"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="body__about about">
+      <div class="about__pic-holder">
+        <img src="pictures/bubble.png" class="about__pic" />
+      </div>
+      <div class="about__text-block">
+        <h1 class="about__text text">зачем это всем? а вам?</h1>
+        <h3 class="about__description description">
+          нужно.поверьте на слово.<br />
+          нам нужны ваши деньги, а вам наш дизайн. все.
+        </h3>
+      </div>
+    </section>
+    <button class="body__button--fixed" onclick="toNext()">k</button>
+    <div class="body__brand">
+      <span>брендинг. ребрендинг.</span><span>influecer marketing.</span
+      ><span>транзитная реклама.</span> <span>наружная реклама.</span>
+      <span>внутренняя реклама.</span><span> логотип.</span>
+      <span> упаковка. брендбук.</span><span>айдентика.</span>
+      <span>визитки. брашуры. каталоги.</span> <span> нэйиминг.</span
+      ><span>слоган. рекламный текст.</span><span> приложения ios.</span
+      ><span> приложения android.</span> <span>лэндинг.</span>
+      <span>сайт. разработка приложений.</span>
+      <span>техническая поддержка</span>
+    </div>
+
+    <section class="body__service service">
+      <h1 class="service__text">Колбы решений</h1>
+      <div class="service__flasks">
+        <div class="service__flask-holder">
+          <img src="pictures/1flask.png" class="service__flask" />
+          <h3 class="service__flask-text">Light</h3>
+        </div>
+        <div class="service__flask-holder service__flask-holder--second">
+          <img src="pictures/2flask.png" class="service__flask" />
+          <h3 class="service__flask-text">Buisiness</h3>
+        </div>
+        <div class="service__flask-holder">
+          <img src="pictures/3flask.png" class="service__flask" />
+          <h3 class="service__flask-text">Pro</h3>
+        </div>
+      </div>
+    </section>
+    <section class="body__contact contact">
+      <form action="" class="contact__form" method="">
+        <div class="contact__form-inputs">
+          <input
+            type="text"
+            placeholder="Имя"
+            name="name"
+            class="contact__form-item"
+          />
+          <input
+            type="tel"
+            placeholder="Телефон"
+            name="number"
+            class="contact__form-item"
+          />
+          <textarea
+            type="text"
+            placeholder="Введите ваше сообщение"
+            rows="5"
+            name="message"
+            class="contact__form-item"
+          ></textarea>
+        </div>
+        <div class="contact__form__submit-holder">
+          <input
+            type="submit"
+            class="contact__form-item contact__form-submit"
+          />
+        </div>
+      </form>
+      <img src="pictures/bottom fill.png" class="contact__fill" />
+    </section>
+
+    <footer class="footer">
+      <div class="footer-holder">
+        <div class="footer-item">
+          ооо «лаборатория дизайна» г. Минск, ул. мележа 5\2
+        </div>
+        <div class="footer-item">+375 33 990 3007</div>
+        <div class="footer-item">lab.singulari@gnail.com</div>
+      </div>
+    </footer>
+  </body>
+  <script src="script/index.js"></script>
+</html>

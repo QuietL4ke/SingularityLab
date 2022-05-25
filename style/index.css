@@ -1,0 +1,403 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-Thin.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-ThinItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-ExtraLight.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-ExtraLightItalic.ttf);
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-SemiBoldItalic.ttf);
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: montserratAS;
+  src: url(../montserrat/Montserrat-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-ExtraBoldItalic.ttf);
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../montserrat/Montserrat-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: dockerone;
+  src: url(../DOCKER/dockerone.ttf);
+}
+@font-face {
+  font-family: dockertwo;
+  src: url(../DOCKER/dockertwo.ttf);
+}
+@font-face {
+  font-family: dockerthree;
+  src: url(../DOCKER/dockerthree.ttf);
+}
+
+.body {
+  background-color: #eaeaf6;
+  margin: 0;
+  color: #073145;
+  font-family: montserrat;
+  font-weight: 500;
+}
+
+a {
+  color: #073145;
+  text-decoration: none;
+  font-family: montserrat;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.nav__logo {
+  position: absolute;
+  max-width: 710px;
+  z-index: 3;
+  top: -110px;
+  left: -171px;
+}
+
+.nav__links {
+  margin-left: 65%;
+}
+
+.nav__link {
+  padding: 10px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.body__main {
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.main__info {
+  display: flex;
+}
+
+.main__info-text-block {
+  margin-top: 200px;
+  z-index: 2;
+}
+.main__info-text {
+  max-width: 300px;
+}
+
+.text {
+  font-size: 48px;
+  font-family: montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.main__info-description {
+  max-width: 600px;
+}
+
+.main__info {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__info-pic-block {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.main__info-pic {
+  width: 1280px;
+}
+
+.main__info-pic--hand {
+  width: 770px;
+  position: absolute;
+}
+
+.body__about {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.about__pic-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.about__pic {
+  max-width: 400px;
+  margin-left: 200px;
+}
+
+.about__text-block {
+  margin-top: 230px;
+  margin-left: 100px;
+}
+
+.about__text {
+  max-width: 400px;
+}
+.about__description {
+  max-width: 450px;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.body__brand {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  padding: 0px 40px;
+  background-color: #073145;
+  text-transform: uppercase;
+  color: #d2ff00;
+  font-weight: 800;
+  font-size: 28px;
+  z-index: 101;
+}
+
+span:nth-child(2n) {
+  font-weight: 300;
+}
+
+.body__service {
+  margin-top: 100px;
+}
+
+.service {
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service__text {
+  font-weight: 400;
+}
+
+.service__flasks {
+  margin-top: 100px;
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  justify-items: center;
+  align-items: flex-end;
+}
+
+.service__flask {
+  height: 500px;
+}
+
+.service__flask-holder--second {
+  margin-left: 300px;
+  margin-right: 150px;
+}
+
+.service__flask-text {
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  /* font-weight: 800; */
+  font-size: 30px;
+  font-family: dockerone;
+}
+
+.body__contact {
+  margin-top: 50px;
+}
+
+.contact {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.contact__form {
+  margin-top: 200px;
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+.contact__form-inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  margin-left: 100px;
+}
+
+.contact__form-item {
+  width: 450px;
+  padding: 30px 30px;
+  border: 1px solid black;
+  box-shadow: inset 0px 3px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 40px;
+  margin-top: 30px;
+  font-size: 24px;
+  font-family: montserrat;
+}
+
+.contact__fill {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.contact__form__submit-holder{
+  background-color: white;
+  margin-left: 40px;
+  border-radius: 50%;
+}
+
+.contact__form-submit {
+  width: 50px;
+  height: 56px;
+  border: solid 2px black;
+  border-radius: 50%;
+  padding: 30px;
+  margin: 0;
+  background-color: #d2ff00;
+  background: transparent url("../pictures/send.png") no-repeat center;
+  text-indent: -1000em;
+  cursor: pointer;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.footer-holder{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.footer-item{
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.body__button--fixed{
+  position: fixed;
+  top: 0;
+  padding: 5px 70px;
+  background-color: #4A8A95;
+  font-family: dockertwo;
+  text-transform: uppercase;
+  color: white;
+  font-size: 36px;
+  border: 1px solid black;
+  border-radius: 3px;
+  z-index: 100; 
+  cursor: pointer;
+}
